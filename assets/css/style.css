@@ -2,7 +2,8 @@
 
 *{margin: 0;
 padding: 0;
-border: none;}
+border: none;
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -18,7 +19,9 @@ h1, h2
 text-transform: uppercase;
 letter-spacing: 4px;
 color: #252525;
+
 }
+
 #logo 
 {float: left;
 font-size: 280%;
@@ -27,39 +30,50 @@ margin-left: 30px;
 
 /* navigation links */
 
-#menu { font-size: 110%;
-letter-spacing: 4px;}
+#menu { 
+    font-size: 110%;
+    letter-spacing: 4px;
+}
 
-#menu, #logo{line-height: 75px;}
+#menu, #logo {
+    line-height: 75px;
+}
 
-#menu li {float: right;
+#menu li {
+    float: right;
 list-style-type: none;
-margin-right: 30px;}
+margin-right: 30px;
+}
 
-#menu a {text-decoration:none;
+#menu a {
+    text-decoration:none;
     color: inherit;
 
 }
 
-#menu a:hover {border-bottom:1px solid #3a3a3a;}
+#menu a:hover {
+    border-bottom:1px solid #3a3a3a;
+}
 
-.active
-{border-bottom:1px solid #3a3a3a;}
+.active {
+    border-bottom:1px solid #3a3a3a;
+}
 
 /* hero image & cover text*/
 
 #hero-outer {
     height: 600px;
-    width: 100%; 
+    width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 #cover-text, #cover-text h2 {
-    color:#fff;}
+    color:#fff;
+}
 
 #hero-image {
-    height: 600px; 
+    height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
@@ -71,19 +85,19 @@ margin-right: 30px;}
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-from{
+    from{
     tranfsorm: scale(1);
-}
-to{
+    }
+    to{
     tranform: scale(1.1);
-}
+    }
 }
 
-#cover-text {font-size: 130%;
-font-family:'Courier New', Courier, monospace sans-serif;
+#cover-text {
+    font-size: 130%;
+font-family:Oswald, sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
-
 width: 300px;
 height: 200px;
 
@@ -96,14 +110,16 @@ bottom: 30px;
 right: 150px;
 
 position: absolute;
-
 }
 
 /* club ethos */
 
-#club-ethos {height: 600px}
+#club-ethos {
+    height: 600px
+}
 
-#left-about {padding-top: 30px;
+#left-about {
+    padding-top: 30px;
 width: 33%;
 float: left;
 }
@@ -116,13 +132,14 @@ float: left;
 #center-about { 
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    
 }
 
-hr {border-top: 1px solid #3a3a3a;
+hr {
+    border-top: 1px solid #3a3a3a;
 width: 100%;
-margin: 5px 0;}
-
+margin: 5px 0;
+}
 
 .left-about-heading {
     width: 60%;
@@ -142,3 +159,26 @@ margin: 5px 0;}
 .right-about-heading h2 {text-align: right;}
 
 .right-about-heading p {text-align: right;}
+
+#welcome {
+    text-align: center;
+margin: 20px 0;
+font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpeg) no-repeat center center;
+height: 100%;
+border-radius: 50%;
+
+}
